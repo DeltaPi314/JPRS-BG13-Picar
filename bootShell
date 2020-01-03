@@ -1,4 +1,5 @@
 #! /bin/sh
 sleep 42
 sudo hostapd -dd /etc/hostapd/hostapd.conf
-(cd /home/pi/JPRS-BG13-Picar;git pull https://github.com/DeltaPi314/JPRS-BG13-Picar.git)
+
+(cd /home/pi/JPRS-BG13-Picar; git reset --hard; git pull https://github.com/DeltaPi314/JPRS-BG13-Picar.git)
