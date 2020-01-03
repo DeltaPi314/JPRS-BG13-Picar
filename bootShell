@@ -1,3 +1,4 @@
 #! /bin/sh
 sleep 60
-sudo hostapd -dd /etc/hostapd/hostapd.conf > /home/pi/log
+sudo hostapd -dd /etc/hostapd/hostapd.conf
+(cd /home/pi/JPRS-BG13-Picar;git pull https://github.com/DeltaPi314/JPRS-BG13-Picar.git)
