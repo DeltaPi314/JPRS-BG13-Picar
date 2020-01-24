@@ -1,3 +1,6 @@
 #! /bin/sh
 (cd /home/pi/JPRS-BG13-Picar; git reset --hard; git pull https://github.com/DeltaPi314/JPRS-BG13-Picar.git) &
 sudo hostapd -dd /etc/hostapd/hostapd.conf 
+
+(cd ~/SunFounder_PiCar-V/remote_control/;
+sudo ./start)
