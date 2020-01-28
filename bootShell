@@ -8,5 +8,5 @@ sudo hostapd /etc/hostapd/hostapd.conf &
 
 for (( ; ; ))
 do
-   
+   echo"A"
 done
